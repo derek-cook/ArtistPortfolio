@@ -1,0 +1,21 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+---
+
+
+<form action="https://formspree.io/{{site.email}}"
+      method="POST" id="usrform">
+    <div class="form-group">
+        <label>Your Name*</label>
+        <input class="input form-control" type="text" name="Name" required>
+        <label>Email*</label>
+        <input class="form-control" type="email" name="_replyto" required>
+        <label>Phone Number</label>
+        <input class="form-control" type="tel" name="Phone Number" required>
+        <label>Message*</label>
+        <textarea class="form-control"  hint="Write a message." rows="10" name="Message" required></textarea>
+        <input class="btn btn-primary" type="submit" value="Send">
+    </div>
+</form>

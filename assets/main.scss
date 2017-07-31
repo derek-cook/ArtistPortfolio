@@ -1,0 +1,68 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+@import "bootstrap";
+
+
+
+//.site-nav {
+//    padding: inherit;
+//}
+
+
+.site-title {
+    padding: inherit;
+    padding-left: 0px;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+.site-nav {
+    line-height: 18px;
+}
+
+.card {
+    padding-top: 15px;
+
+    padding-bottom: 15px;
+}
+
+.flower-box {
+    vertical-align: middle;
+    position: relative;
+}
+
+.home {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.site-header {
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.page-content {
+    padding-top: 60px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+.card {
+    width: 100%;
+    align-content: center;
+}
+
+.site-header a:hover {
+    text-decoration: underline;
+}
