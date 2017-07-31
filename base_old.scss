@@ -98,16 +98,15 @@ a {
     color: darken($brand-color, 15%);
   }
 
-  &:hover {
-    color: $text-color;
-    text-decoration: underline;
-  }
+    &:hover {
+        color: $text-color;
+    }
 
   .social-media-list &:hover {
     text-decoration: none;
 
     .username {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 }
